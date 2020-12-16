@@ -1,10 +1,3 @@
-import requests
-import datetime
-import base64
-from requests.auth import HTTPBasicAuth
-from  flask import Flask
-
-app = Flask(__name__)
 
 @app.route('/mpesa_payment')
 def mpesa_payment():
@@ -56,5 +49,3 @@ def mpesa_payment():
 
 
 
-if __name__ =='__main__':
-    app.run()
